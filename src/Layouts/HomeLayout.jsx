@@ -11,6 +11,7 @@ const HomeLayout = () => {
         <div className='font-montserrat'>
             <Navbar className={location.pathname != "/" ? 'text-black' : ""}></Navbar>
             <Outlet></Outlet>
+            {/* footer */}
         </div>
     );
 };
